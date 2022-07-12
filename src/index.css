@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "NewYork";
+  src: url("/src/fonts/NewYork.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("/src/fonts/NotoSansKR.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Apple SD Gothic";
+  src: url("/src/fonts/AppleSDGothicNeo.ttf") format("truetype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Apple SD Gothic", -apple -system, "Noto Sans KR", sans-serif,
+    "Montserrat";
+  background-color: #f9f7ed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
